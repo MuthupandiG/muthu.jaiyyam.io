@@ -1,0 +1,132 @@
+/*  CSS for all pages */
+
+.logo {
+width: 100%;
+text-align : center;
+}
+.logo-background {
+	background-image: url(../image/background.jpg);
+    margin: 0;
+    color: #ffffffbd;
+    padding: 10px;
+    font-family: cursive;
+	
+	-webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0, 0, 0, 0.65) 50%, rgba(0,0,0,1));
+    -webkit-mask-image: linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
+}
+a.nav-link.active {
+	color: #fff;
+}
+
+.footer-content-right {
+	color: #fff;
+    font-size: 12px;
+	float: right;
+}
+.footer-content-left {
+	color: #fff;
+	float:left;
+}
+.footer-content-right a, .footer-content-left a  {
+	color: #fff;
+    text-decoration: none;
+}
+
+.box-container {
+    height: 180px;
+    margin-top: 20px;
+}
+
+.border-right {	
+    border-right: 1px solid #ab0a0a26;
+}
+
+.box-container .title {
+	margin-bottom : 20px;
+}
+.box-container .title .text {
+	font-family: cursive;
+    font-weight: bold;
+	font-size : 18px;
+	color: #801a1ac2;
+}
+
+.box-container .title .icon {
+	float: left;
+    margin-right: 10px;
+	color: #8a1212;
+}
+.box-container .description {
+	font-family: cursive;
+    text-align: justify;
+}
+
+.box-container .description a {
+	 font-weight : bold;
+}
+
+.box-container .description .icon {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.box-container .description .text {
+    margin-bottom: 10px;
+}
+
+.align-bottom {
+	position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+a.nav-link {
+	color: #d6d0d0;
+}
+
+.top-border.background-dark, .bottom-border.background-dark {
+	padding:5px;
+	background-color: #343a40 !important;
+}
+
+.book-now-form {
+	position: absolute;
+    top: 120px;
+    left:0px;
+	color: #fff;
+	
+	background-color: #f19d9d61;
+    padding: 5px;
+}
+
+.book-now-form .header {
+	font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.book-now-form .form-container {
+	width: 300px;
+	margin-bottom: 6px;
+}
+
+.book-now-form .label-left {
+	font-size: 12px;
+	float: left;
+	width: 120px;
+	height: 26px;
+	font-weight: bold;
+}
+
+.book-now-form .input-right {
+	width : 175px;
+	clear: both;
+}
+
+.book-now-action button {
+	width: 135px;
+    background-color: #59ad3e;
+    margin-left: 80px;
+	margin-top: 3px;
+}
