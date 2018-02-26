@@ -5,7 +5,8 @@ width: 100%;
 text-align : center;
 }
 .logo-background {
-	background-image: url(../image/background.jpg);
+	background-image: url(../image/background_new.jpg);
+	height: 70px;
     margin: 0;
     color: #ffffffbd;
     padding: 10px;
@@ -91,7 +92,7 @@ a.nav-link {
 
 .book-now-form {
 	position: absolute;
-    top: 120px;
+    top: 132px;
     left:0px;
 	color: #fff;
 	
