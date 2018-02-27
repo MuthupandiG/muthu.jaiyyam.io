@@ -1,5 +1,7 @@
 /*  CSS for all pages */
 
+body { background-color: #b188881c;}
+
 .logo {
 width: 100%;
 text-align : center;
@@ -88,11 +90,12 @@ a.nav-link {
 .top-border.background-dark, .bottom-border.background-dark {
 	padding:5px;
 	background-color: #343a40 !important;
-}
+} .bottom-border.background-dark {
+	padding:15px;
 
-.book-now-form {
+ } .book-now-form {
 	position: absolute;
-    top: 132px;
+    top: 180px;
     left:0px;
 	color: #fff;
 	
